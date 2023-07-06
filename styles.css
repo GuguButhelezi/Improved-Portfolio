@@ -346,6 +346,7 @@ height: 20px;
 .project__image{
     width:100%;
     transition: all 450ms ease;
+    object-fit: cover;
 }
 
 
@@ -680,6 +681,10 @@ footer{
     }
     .modal__half{
         width: 100%;
+    }
+
+    .shape{
+        display: none;
     }
 }
 
