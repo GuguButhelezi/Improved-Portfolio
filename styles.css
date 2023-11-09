@@ -343,19 +343,18 @@ height: 20px;
     margin-bottom: 60px;
 }
 
-.project__image{
-    width:100%;
-    transition: all 450ms ease;
-    object-fit: cover;
-}
-
-
 .project__wrapper{
     position: relative;
     border-radius: 20px;
     box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.45);
     overflow: hidden;
     margin-bottom: 105px;
+}
+
+.project__image{
+    width:100%;
+    transition: all 450ms ease;
+    object-fit: cover;
 }
 
 .project__description{
